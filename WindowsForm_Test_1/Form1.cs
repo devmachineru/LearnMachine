@@ -21,6 +21,7 @@ namespace WindowsForm_Test_1
         {
             InitializeComponent();
             toolStripStatusLabel1.Text = DateTime.Now.ToString();
+            label1.Text = DateTime.Now.ToString();
 
             //   int barValue;
             //  barValue = 0;
@@ -46,11 +47,7 @@ namespace WindowsForm_Test_1
             this.Close(); //  label1.Text = "EHF";
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             // label1.Text = dateTimePicker1.Text;

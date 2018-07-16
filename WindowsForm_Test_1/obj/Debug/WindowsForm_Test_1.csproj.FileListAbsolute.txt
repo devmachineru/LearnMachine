@@ -8,3 +8,13 @@ D:\!_DEV\WindowsForm_Test_1\WindowsForm_Test_1\bin\Debug\Learn Machine.exe
 D:\!_DEV\WindowsForm_Test_1\WindowsForm_Test_1\bin\Debug\Learn Machine.pdb
 D:\!_DEV\WindowsForm_Test_1\WindowsForm_Test_1\obj\Debug\Learn Machine.exe
 D:\!_DEV\WindowsForm_Test_1\WindowsForm_Test_1\obj\Debug\Learn Machine.pdb
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\obj\Debug\Learn Machine.exe
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\obj\Debug\Learn Machine.pdb
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\bin\Debug\Learn Machine.exe.config
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\bin\Debug\Learn Machine.exe
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\bin\Debug\Learn Machine.pdb
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\obj\Debug\WindowsForm_Test_1.csprojAssemblyReference.cache
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\obj\Debug\WindowsForm_Test_1.Form1.resources
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\obj\Debug\WindowsForm_Test_1.Properties.Resources.resources
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\obj\Debug\WindowsForm_Test_1.csproj.GenerateResource.cache
+C:\!_DEV\GitHub\LearnMachine\WindowsForm_Test_1\obj\Debug\WindowsForm_Test_1.csproj.CoreCompileInputs.cache

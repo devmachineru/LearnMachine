@@ -53,7 +53,7 @@ namespace WindowsForm_Test_1
             // button1
             // 
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button1.Location = new System.Drawing.Point(941, 367);
+            this.button1.Location = new System.Drawing.Point(790, 367);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 34);
             this.button1.TabIndex = 0;
@@ -65,17 +65,16 @@ namespace WindowsForm_Test_1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(824, 87);
+            this.label1.Location = new System.Drawing.Point(371, 61);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(175, 46);
             this.label1.TabIndex = 1;
             this.label1.Text = "Text 123";
             this.label1.UseMnemonic = false;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(529, 96);
+            this.dateTimePicker1.Location = new System.Drawing.Point(379, 118);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(244, 20);
             this.dateTimePicker1.TabIndex = 2;
@@ -83,7 +82,7 @@ namespace WindowsForm_Test_1
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(559, 166);
+            this.monthCalendar1.Location = new System.Drawing.Point(379, 150);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 3;
             this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
@@ -91,11 +90,11 @@ namespace WindowsForm_Test_1
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(809, 166);
+            this.button2.Location = new System.Drawing.Point(555, 150);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 162);
+            this.button2.Size = new System.Drawing.Size(337, 162);
             this.button2.TabIndex = 4;
-            this.button2.Text = "TEST IT";
+            this.button2.Text = "TEST IT!";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -103,13 +102,13 @@ namespace WindowsForm_Test_1
             // 
             this.progressBar1.Location = new System.Drawing.Point(12, 367);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(748, 34);
+            this.progressBar1.Size = new System.Drawing.Size(632, 34);
             this.progressBar1.TabIndex = 5;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(783, 367);
+            this.button3.Location = new System.Drawing.Point(669, 367);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(115, 34);
             this.button3.TabIndex = 6;
@@ -121,9 +120,9 @@ namespace WindowsForm_Test_1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 425);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 413);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1078, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(900, 22);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
@@ -139,7 +138,7 @@ namespace WindowsForm_Test_1
             // 
             this.menuStrip1.Location = new System.Drawing.Point(0, 24);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1078, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(900, 24);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -150,7 +149,7 @@ namespace WindowsForm_Test_1
             this.настройкиToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1078, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(900, 24);
             this.menuStrip2.TabIndex = 9;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -171,9 +170,9 @@ namespace WindowsForm_Test_1
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(41, 76);
+            this.listBox1.Location = new System.Drawing.Point(12, 61);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(376, 238);
+            this.listBox1.Size = new System.Drawing.Size(346, 251);
             this.listBox1.TabIndex = 10;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -188,7 +187,7 @@ namespace WindowsForm_Test_1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button1;
-            this.ClientSize = new System.Drawing.Size(1078, 447);
+            this.ClientSize = new System.Drawing.Size(900, 435);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
